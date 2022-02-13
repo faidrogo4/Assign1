@@ -1,49 +1,41 @@
-/* Add a black background color to the top navigation */
 .navBar {
-    background-color: rgb(68, 44, 44);
-    overflow: hidden;
-  }
-  
-  /* Style the links inside the navigation bar */
-  .navBar a {
-    float: left;
-    color: #ffffff;
-    text-align: center;
-    padding: 14px 25px;
-    text-decoration: none;
-    font-size: 18px;
-  }
-  
-  /* Change the color of links on hover */
-  .navBar a:hover {
-    background-color: rgb(255, 255, 255);
-    color: black;
-  }
-  
-  /* Add a color to the active/current link */
-  .navBar a.active {
-    background-color: #684c3a;
-    color: white;
-  }
+background-color: rgb(68, 44, 44);
+overflow: hidden;
+}
 
-  #buttonBox {
-      margin-top: 15px;
-  }
+.navBar a {
+float: left;
+color: white;
+text-align: center;
+padding: 14px 25px;
+text-decoration: none;
+font-size: 18px;
+}
 
-  img {
-    width: 100%;
-    height: auto;
-  }
+.navBar a:hover {
+background-color: white;
+color: black;
+}
 
-  #div1 {
-      margin-top: 10px;
-  }
+.navBar a.active {
+background-color: #684c3a;
+color: white;
+}
 
-  body {
-      background-color:bisque;
-  }
+img {
+width: 100%;
+height: auto;
+}
 
-  #div2 {
-      margin-left: 40px;
-      margin-top: 30px;
-  }
+#div1 {
+    margin-top: 10px;
+}
+
+body {
+    background-color:bisque;
+}
+
+#div2 {
+    margin-left: 40px;
+    margin-top: 30px;
+}
